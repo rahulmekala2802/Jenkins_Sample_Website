@@ -1,172 +1,3 @@
-Last login: Tue Nov  5 12:23:21 on ttys002
-
-The default interactive shell is now zsh.
-To update your account to use zsh, please run `chsh -s /bin/zsh`.
-For more details, please visit https://support.apple.com/kb/HT208050.
-Rahuls-MBP:~ rahulreddy$ git --version
-git version 2.46.0
-Rahuls-MBP:~ rahulreddy$ cd Downloads
-Rahuls-MBP:Downloads rahulreddy$ ls
- Patricia submitted DS 160Consular Electronic Application Center - Print Application.pdf
-EAadhaar_2906025180188420240203143213_14062024224010.pdf
-FSLolaRegular
-GMT20221228-165947_Recording.m4a
-GMT20221228-165947_Recording_1920x1030.mp4
-Healet Free Website Template - Free-CSS.com.zip
-I004V1247124_ETA.pdf
-KP1.pem
-Microsoft_Office_16.67.22111300_BusinessPro_Installer.pkg
-MyFirstProject
-Patricia Nonimmigrant Visa - Confirmation Page.pdf
-Rahul - Resume.docx
-Rahul Nonimmigrant Visa - Confirmation Page.pdf
-Rahul submitted DS160 Consular Electronic Application Center - Print Application.pdf
-Responsibilities.pages
-Tiara Nonimmigrant Visa - Confirmation Page.pdf
-Tiara submitted DS160 Consular Electronic Application Center - Print Application.pdf
-Xtream1_11am-20241002T042111Z-001.zip
-Xtream1_11am-20241002T042111Z-002.zip
-Xtream1_11am-20241002T042111Z-003.zip
-e-ticket.pdf
-github-recovery-codes.txt
-healet-html
-rahul_redy_devops (1).docx
-rahul_redy_devops.docx
-~$hul_redy_devops.docx
-Rahuls-MBP:Downloads rahulreddy$ cd healet-html/
-Rahuls-MBP:healet-html rahulreddy$ git init
-Initialized empty Git repository in /Users/rahulreddy/Downloads/healet-html/.git/
-Rahuls-MBP:healet-html rahulreddy$ ls
-about.html	css		images		js
-blog.html	fonts		index.html	shop.html
-Rahuls-MBP:healet-html rahulreddy$ ls -l
-total 96
--rw-rw-r--@  1 rahulreddy  staff   6569 15 Jul  2020 about.html
--rw-rw-r--@  1 rahulreddy  staff   7360 15 Jul  2020 blog.html
-drwxrwxr-x@  8 rahulreddy  staff    256 16 Sep  2020 css
-drwxrwxr-x@  6 rahulreddy  staff    192 16 Sep  2020 fonts
-drwxrwxr-x@ 19 rahulreddy  staff    608 16 Sep  2020 images
--rw-rw-r--@  1 rahulreddy  staff  19986 15 Jul  2020 index.html
-drwxrwxr-x@  5 rahulreddy  staff    160 16 Sep  2020 js
--rw-rw-r--@  1 rahulreddy  staff  11477 15 Jul  2020 shop.html
-Rahuls-MBP:healet-html rahulreddy$ ls -a
-.		about.html	fonts		js
-..		blog.html	images		shop.html
-.git		css		index.html
-Rahuls-MBP:healet-html rahulreddy$ git status
-On branch master
-
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	about.html
-	blog.html
-	css/
-	fonts/
-	images/
-	index.html
-	js/
-	shop.html
-
-nothing added to commit but untracked files present (use "git add" to track)
-Rahuls-MBP:healet-html rahulreddy$ git add .
-Rahuls-MBP:healet-html rahulreddy$ git status
-On branch master
-
-No commits yet
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-	new file:   about.html
-	new file:   blog.html
-	new file:   css/bootstrap.css
-	new file:   css/font-awesome.min.css
-	new file:   css/responsive.css
-	new file:   css/style.css
-	new file:   css/style.css.map
-	new file:   css/style.scss
-	new file:   fonts/fontawesome-webfont.ttf
-	new file:   fonts/fontawesome-webfont.woff
-	new file:   fonts/fontawesome-webfont.woff2
-	new file:   fonts/octin_sports_rg.ttf
-	new file:   images/about-img.jpg
-	new file:   images/b1.jpg
-	new file:   images/b2.jpg
-	new file:   images/client.jpg
-	new file:   images/favicon.png
-	new file:   images/o1.jpg
-	new file:   images/o2.jpg
-	new file:   images/o3.jpg
-	new file:   images/p1.png
-	new file:   images/p2.png
-	new file:   images/p3.png
-	new file:   images/p4.png
-	new file:   images/p5.png
-	new file:   images/p6.png
-	new file:   images/p7.png
-	new file:   images/p8.png
-	new file:   images/slider-bg.jpg
-	new file:   index.html
-	new file:   js/bootstrap.js
-	new file:   js/custom.js
-	new file:   js/jquery-3.4.1.min.js
-	new file:   shop.html
-
-Rahuls-MBP:healet-html rahulreddy$ git commit -m "Adding Sample website to Git"
-[master (root-commit) 09461a2] Adding Sample website to Git
- 34 files changed, 18051 insertions(+)
- create mode 100644 about.html
- create mode 100644 blog.html
- create mode 100644 css/bootstrap.css
- create mode 100644 css/font-awesome.min.css
- create mode 100644 css/responsive.css
- create mode 100644 css/style.css
- create mode 100644 css/style.css.map
- create mode 100644 css/style.scss
- create mode 100644 fonts/fontawesome-webfont.ttf
- create mode 100644 fonts/fontawesome-webfont.woff
- create mode 100644 fonts/fontawesome-webfont.woff2
- create mode 100644 fonts/octin_sports_rg.ttf
- create mode 100644 images/about-img.jpg
- create mode 100644 images/b1.jpg
- create mode 100644 images/b2.jpg
- create mode 100644 images/client.jpg
- create mode 100644 images/favicon.png
- create mode 100644 images/o1.jpg
- create mode 100644 images/o2.jpg
- create mode 100644 images/o3.jpg
- create mode 100644 images/p1.png
- create mode 100644 images/p2.png
- create mode 100644 images/p3.png
- create mode 100644 images/p4.png
- create mode 100644 images/p5.png
- create mode 100644 images/p6.png
- create mode 100644 images/p7.png
- create mode 100644 images/p8.png
- create mode 100644 images/slider-bg.jpg
- create mode 100644 index.html
- create mode 100644 js/bootstrap.js
- create mode 100644 js/custom.js
- create mode 100644 js/jquery-3.4.1.min.js
- create mode 100644 shop.html
-Rahuls-MBP:healet-html rahulreddy$ git remote add origin https://github.com/rahulmekala2802/Jenkins_Sample_Website.git
-Rahuls-MBP:healet-html rahulreddy$ git branch
-* master
-Rahuls-MBP:healet-html rahulreddy$ git branch -m rahmain
-Rahuls-MBP:healet-html rahulreddy$ git branch
-* rahmain
-Rahuls-MBP:healet-html rahulreddy$ git push origin rahmain
-Enumerating objects: 40, done.
-Counting objects: 100% (40/40), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (40/40), done.
-Writing objects: 100% (40/40), 1.94 MiB | 6.65 MiB/s, done.
-Total 40 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), done.
-To https://github.com/rahulmekala2802/Jenkins_Sample_Website.git
- * [new branch]      rahmain -> rahmain
-Rahuls-MBP:healet-html rahulreddy$ cat index.html 
 <!DOCTYPE html>
 <html>
 
@@ -849,26 +680,81 @@ Rahuls-MBP:healet-html rahulreddy$ cat index.html
 
 </html>Rahuls-MBP:healet-html rahulreddy$ vi index.html 
 
-<!DOCTYPE html>
-<html>
+              <p>
+                long established fact that a reader
+              </p>
+            </div>
+            <div class="insta_box">
+              <div class="img-box">
+                <img src="images/p2.png" alt="">
+              </div>
+              <p>
+                long established fact that a reader
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_detail">
+            <h4>
+              About Us
+            </h4>
+            <p class="mb-0">
+              when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Contact Us
+          </h4>
+          <div class="info_contact">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Location
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call +01 1234567890
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope"></i>
+              <span>
+                demo@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <link rel="icon" href="images/favicon.png" type="image/gif" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <!-- end info_section -->
 
-  <title>Healet</title>
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom styles for this template -->
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
 
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
